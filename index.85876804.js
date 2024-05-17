@@ -1,5 +1,5 @@
 const e = function () {
-    const e = new Date('2024-05-31T00:00').getTime(),
+    const e = new Date('2024-05-17T00:00').getTime(),
         t = e + 864e5,
         o = Date.now();
     return o < e ? 'IS_EARLY' : o > t ? 'IS_LATE' : 'ON_TIME';
